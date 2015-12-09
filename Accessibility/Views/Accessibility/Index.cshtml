@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 tabindex="0" role="heading">Index</h2>
+
+<div class="container" ng-controller="MainController">
+    <span class="row" tabindex="0">Added some text to test how the role can be changed and if is announced by the screen reader</span>
+    <button class="btn btn-default">Action</button>
+    <div class="dropdown">
+        <a tabindex="0" class="dropdown-toggle btn glyphicon-asterisk" data-toggle="dropdown"></a>
+        <ul class="dropdown-menu">
+            <li>Something here</li>
+            <li>Something here</li>
+            <li>Something here</li>
+            <li>Something here</li>
+        </ul>
+    </div>
+    {{test}}
+</div>
